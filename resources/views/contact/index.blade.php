@@ -4,7 +4,6 @@
   
 @section('contents')
     <div class="d-flex align-items-center justify-content-between">
-<<<<<<< HEAD
         <h1 class="mb-0">Daftar Kontak</h1>
         <h1 class="mb-0">List Contact</h1>
         <a href="{{ route('contact.create') }}" class="btn btn-primary">Add Kontak</a>
