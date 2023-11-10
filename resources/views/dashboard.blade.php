@@ -1,9 +1,47 @@
 @extends('layouts.app')
   
-@section('title', 'Dashboard - Laravel Admin Panel With Login and Registration')
+@section('title', 'Kelompok 1 - Aplikasi Manajemen Kontak')
   
 @section('contents')
   <div class="row">
-    Dashboard
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 50%;
+      }
+      
+      table, th, td {
+          border: 1px solid black;
+      }
+      </style>
+      
+    <table>
+      <thead>
+          <tr>
+              <th>Nama</th>
+              <th>NIM</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Ilham Firmansyah</td>
+              <td>220658302003</td>
+          </tr>
+          <tr>
+              <td>Yunisa Wulandari</td>
+              <td>220658302005</td>
+          </tr>
+          <tr>
+            <td>Dewi Siti Aminah</td>
+            <td>220658302013</td>
+        </tr>
+        <tr>
+          <td>Marhaini</td>
+          <td>220658302017</td>
+      </tr>
+      </tbody>
+  </table>
+  
   </div>
 @endsection
+

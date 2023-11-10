@@ -78,4 +78,5 @@ class ContactController extends Controller
   
         return redirect()->route('contact')->with('success', 'Kontak Telah Behasil Di Hapus!');
     }
+
 }
