@@ -5,12 +5,18 @@
     <div class="sidebar-brand-icon rotate-n-15">
       <i class="fas fa-laugh-wink"></i>
     </div>
-    <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+    <div class="sidebar-brand-text mx-3">Kelompok <sup>2</sup></div>
   </a>
   
   <!-- Divider -->
   <hr class="sidebar-divider my-0">
   
+  <li class="nav-item">
+    <a class="nav-link" href="/profile">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Profile</span></a>
+  </li>
+
   <!-- Nav Item - Dashboard -->
   <li class="nav-item">
     <a class="nav-link" href="{{ route('dashboard') }}">
@@ -24,11 +30,6 @@
       <span>Daftar Kontak</span></a>
   </li>
   
-  <li class="nav-item">
-    <a class="nav-link" href="/profile">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Profile</span></a>
-  </li>
   
   <!-- Divider -->
   <hr class="sidebar-divider d-none d-md-block">
