@@ -11,10 +11,10 @@ Route::get('/', function () {
  
 Route::controller(AuthController::class)->group(function () {
     Route::get('register', 'register')->name('register');
-    Route::post('register', 'registerSave')->name('register.save');
+    Route::post('register.save', 'registerSave')->name('register.save');
   
     Route::get('login', 'login')->name('login');
-    Route::post('login', 'loginAction')->name('login.action');
+    Route::post('login.action', 'loginAction')->name('login.action');
   
     Route::get('logout', 'logout')->middleware('auth')->name('logout');
 });
