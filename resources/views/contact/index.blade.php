@@ -6,9 +6,7 @@
     <div class="d-flex align-items-center justify-content-between">
 <<<<<<< HEAD
         <h1 class="mb-0">Daftar Kontak</h1>
-=======
         <h1 class="mb-0">List Contact</h1>
->>>>>>> 6a18678b139443f3ec4335e24079ec1dab883208
         <a href="{{ route('contact.create') }}" class="btn btn-primary">Add Kontak</a>
     </div>
     <hr />
