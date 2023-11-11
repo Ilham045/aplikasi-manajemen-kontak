@@ -50,7 +50,7 @@
       <!-- Dropdown - Alerts -->
       <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
         <h6 class="dropdown-header">
-          Alerts Center
+          Notif Pusat
         </h6>
         <a class="dropdown-item d-flex align-items-center" href="#">
           <div class="mr-3">
@@ -99,7 +99,7 @@
       <!-- Dropdown - Messages -->
       <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
         <h6 class="dropdown-header">
-          Message Center
+          Notif Pesan
         </h6>
         <a class="dropdown-item d-flex align-items-center" href="#">
           <div class="dropdown-list-image mr-3">

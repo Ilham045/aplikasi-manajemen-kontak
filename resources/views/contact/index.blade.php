@@ -46,7 +46,7 @@
                 @endforeach
             @else
                 <tr>
-                    <td class="text-center" colspan="5">Product not found</td>
+                    <td class="text-center" colspan="5">Kontak Tidak Ditemukan</td>
                 </tr>
             @endif
         </tbody>
