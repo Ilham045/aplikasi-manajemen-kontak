@@ -1,28 +1,44 @@
 @extends('layouts.app')
-
+  
 @section('title', 'Kelompok 1 - Aplikasi Manajemen Kontak')
-
+  
 @section('contents')
   <div class="row">
-    <table border="1">
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 65%;
+      }
+      
+      table, th, td {
+          border: 1px solid black;
+      }
+      </style>
+      
+    <table>
       <thead>
-        <tr>
-          <th>ID</th>
+          <tr>
           <th>Nama Kelompok</th>
-          <th>Jumlah Anggota</th>
+          <th>NIM</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>Kelompok A</td>
-          <td>10</td>
+          <tr>
+              <td>Ilham Firmansyah</td>
+              <td>220658302003</td>
+          </tr>
+          <tr>
+              <td>Yunisa Wulandari</td>
+              <td>220658302005</td>
+          </tr>
+          <tr>
+            <td>Dewi Siti Aminah</td>
+            <td>220658302013</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td>Kelompok B</td>
-          <td>8</td>
-        </tr>
+          <td>Marhaini</td>
+          <td>220658302017</td>
+      </tr>
       </tbody>
     </table>
   </div>
