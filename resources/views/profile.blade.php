@@ -6,7 +6,7 @@
     <h1 class="mb-0">Profile</h1>
     <hr />
  
-    <form method="POST" enctype="multipart/form-data" id="profile_setup_frm" action="" >
+    <form method="GET" enctype="multipart/form-data" id="profile_setup_frm" action="" >
     <div class="row">
         <div class="col-md-12 border-right">
             <div class="p-3 py-5">
